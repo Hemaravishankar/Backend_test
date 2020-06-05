@@ -9,7 +9,7 @@ python manage.py makemigrations API
 Command to create superuser
 python manage.py createsuperuser
 
-python manage.py activity --createactivity 5
+python manage.py activity --createactivity
 
 LOCAL SERVER
 Command to migrate
@@ -22,9 +22,9 @@ Command to create superuser
 python manage.py createsuperuser
 
 Command to create dummy users in db
-python manage.py user --createuser 5
+python manage.py user --createuser
 
-python manage.py activity --createactivity 5
+python manage.py activity --createactivity
 
 #Application URL
 
