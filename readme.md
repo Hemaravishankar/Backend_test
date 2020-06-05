@@ -9,30 +9,7 @@ python manage.py makemigrations API
 Command to create superuser
 python manage.py createsuperuser
 
-Command to create dummy users in db
-python manage.py user --createuser 5
-
 python manage.py activity --createactivity 5
-
-Command to migrate
-heroku run python manage.py migrate
-
-Command to makemigrations in db
-heroku run python manage.py makemigrations API
-
-Command to create superuser
-heroku run python manage.py createsuperuser
-
-Command to create dummy users in db
-heroku run python manage.py user --createuser 5
-
-heroku run python manage.py activity --createactivity 5
-
-Application URL
-https://djanorestapi-fullthrottlelabs.herokuapp.com/
-
-Admin URL
-https://djanorestapi-fullthrottlelabs.herokuapp.com/admin/
 
 LOCAL SERVER
 Command to migrate
